@@ -1,0 +1,32 @@
+.home h2{
+    color: hsl(0, 98%, 49%);
+    letter-spacing: 7px!important;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+  }
+  
+  .home h2{
+    text-align: start;
+    padding: 35px;
+    background: linear-gradient(to right, hsl(0, 95%, 49%) 0, hsl(0, 0%, 5%) 10%, hsl(0, 23%, 94%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  .home h4{
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
